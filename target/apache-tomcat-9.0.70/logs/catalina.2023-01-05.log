@@ -1,0 +1,55 @@
+05-Jan-2023 07:15:25.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.70
+05-Jan-2023 07:15:25.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 1 2022 14:05:47 UTC
+05-Jan-2023 07:15:25.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.70.0
+05-Jan-2023 07:15:25.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Jan-2023 07:15:25.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1026-aws
+05-Jan-2023 07:15:25.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2023 07:15:25.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+05-Jan-2023 07:15:25.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8-post-Ubuntu-1ubuntu222.04
+05-Jan-2023 07:15:25.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+05-Jan-2023 07:15:25.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/webapp-master/target/apache-tomcat-9.0.70
+05-Jan-2023 07:15:25.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/webapp-master/target/apache-tomcat-9.0.70
+05-Jan-2023 07:15:25.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/webapp-master/target/apache-tomcat-9.0.70/conf/logging.properties
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2023 07:15:25.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2023 07:15:25.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Jan-2023 07:15:25.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Jan-2023 07:15:25.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/webapp-master/target/apache-tomcat-9.0.70
+05-Jan-2023 07:15:25.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/webapp-master/target/apache-tomcat-9.0.70
+05-Jan-2023 07:15:25.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/webapp-master/target/apache-tomcat-9.0.70/temp
+05-Jan-2023 07:15:25.754 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Jan-2023 07:15:26.606 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jan-2023 07:15:26.669 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1408] milliseconds
+05-Jan-2023 07:15:26.797 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2023 07:15:26.797 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.70]
+05-Jan-2023 07:15:26.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/host-manager]
+05-Jan-2023 07:15:27.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/host-manager] has finished in [616] ms
+05-Jan-2023 07:15:27.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/examples]
+05-Jan-2023 07:15:27.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/examples] has finished in [511] ms
+05-Jan-2023 07:15:27.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/docs]
+05-Jan-2023 07:15:27.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/docs] has finished in [40] ms
+05-Jan-2023 07:15:27.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/manager]
+05-Jan-2023 07:15:28.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/manager] has finished in [52] ms
+05-Jan-2023 07:15:28.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/ROOT]
+05-Jan-2023 07:15:28.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/webapp-master/target/apache-tomcat-9.0.70/webapps/ROOT] has finished in [41] ms
+05-Jan-2023 07:15:28.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jan-2023 07:15:28.108 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1439] milliseconds
+05-Jan-2023 21:12:09.683 INFO [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xca0x010x000x000xc60x030x030x0c0x8b&70x100x07n0xc80x89u0x030xb7'0xdd5R0xd6e0xb50x0b80xfc0xa70xf50xab<0x990xe60xa8F0xd3C0x000x00h0xcc0x140xcc0x130xc0/0xc0+0xc000xc0,0xc00x110xc00x070xc0'0xc0#0xc00x130xc00x090xc0(0xc0$0xc00x140xc00x0a0xcc0x150x000x9e0x000x9f0x00g0x00k0x0030x0090x000x9c0x000x9d0x000x050x000x040x00<0x00=0x00/0x0050xc00x120x000x160x000x0a0x000x030x000x080x000x060x000x140x000x110x000x190x000x170x0020xc00x080x000x120x000x130x000x150x0080x00@0x00f0x00j0x000xa20x000xa30x010x000x0050x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0c0x000x0a0x040x010x040x030x020x010x020x030x020x020xff0x010x000x010x000x000x0f0x000x010x01...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
